@@ -1,0 +1,111 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* start banner */
+    .banner{
+      padding-bottom: 40px;
+    }
+    .b-right{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .b_h1{
+        font-size: 30px;
+    }
+    /* end banner */
+    /* start about */
+    .a_h1{
+        font-size: 20px;
+    }
+    /* end about */
+    
+
+    /* start latest feature */
+    .l_f{
+        padding: 90px 0px;
+    }
+    /* end latest feature */
+
+/* start latest post */
+    .meta span {
+        margin-left: 5px;
+    }
+    .l_p h1 {
+        font-size: 40px;
+    }
+    /* end latest post */
+
+     /* start brand */
+       .dis,.dis1{
+        display: none;
+    }
+    /* end brand */
+
+    /* footer start */
+    footer {
+        padding: 120px 10px;
+    }
+    /* footer end */
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /*start banner  */
+    
+     /* end banner */
+    /* start brand */
+     .dis{
+        display: none;
+    }
+    /* end brand */
+    /* footer start */
+    footer {
+        padding: 120px 10px;
+    }
+    /* footer end */
+ 
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* start banner */
+    .banner {
+        padding: 160px 0px 160px 0px;
+    }
+    /* end banner */
+
+    /* start brand */
+    .dis{
+        display: none;
+    }
+    /* end brand */
+     /* footer start */
+     footer {
+        padding: 120px 10px;
+    }
+    /* footer end */
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /*start latest posts  */
+
+
+ }
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) { 
+     
+/*start latest posts  */
+.l_p p{
+    padding: 0px 20px 0px;
+}
+    
+  }
